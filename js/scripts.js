@@ -4,3 +4,10 @@ $(document).ready(function() {
     $("#initially-hidden").slideToggle();
   });
 });
+
+$(document).ready(function() {
+  $(".shoeClick").click(function() {
+    $("#shoe-showing").fadeToggle();
+    $("#shoe-hidden").fadeToggle();
+  });
+});
