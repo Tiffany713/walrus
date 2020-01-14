@@ -1,37 +1,51 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-    <link href="css/styles.css" rel="stylesheet" type="text/css">
-    <script src="js/jquery-3.4.1.js"></script>
-    <script src="js/scripts.js"></script>
-    <title>Peek-a-boo</title>
-  </head>
-  <body>
-    <div class="container">
-      <h1>Peek-a-boo</h1>
-      <p><strong>Peek-a-boo</strong> is an ancient game riddled in mystery and deceit. Though it appears to be an innocent children's pastime, you may change your mind when you learn of its treacherous history.</p>
-      <div id="initially-showing">
-        <p>Let's play peek-a-boo. <span class="clickable">Click here</span>  to see the surprise!</p>
-      </div>
-      <div id="initially-hidden">
-        <p>What a cute walrus! <span class="clickable">Click here</span> to hide her again.</p>
-        <img src="img/walrus.jpeg">
-      </div>
+
+<head>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.4.1.js"></script>
+  <script src="js/scripts.js"></script>
+  <title>Peek-a-boo</title>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Peek-a-boo</h1>
+    <p><strong>Peek-a-boo</strong> is an ancient game riddled in mystery and deceit. Though it appears to be an innocent
+      children's pastime, you may change your mind when you learn of its treacherous history.</p>
+    <div id="initially-showing">
+      <p>Let's play peek-a-boo. <span class="clickable">Click here</span> to see the surprise!</p>
+    </div>
+    <div id="initially-hidden">
+      <p>What a cute walrus! <span class="clickable">Click here</span> to hide her again.</p>
+      <img src="img/walrus.jpeg">
+    </div>
+  </div>
+
+  <div class="container">
+    <h2>Another Peek-a-boo</h2>
+    <p>It wasn't until the Upper Paleolithic period that footwear was consistently worn by populations. The earliest
+      shoe prototypes were soft, made from wraparound leather, and resembled either sandals or moccasins. Jump ahead a
+      few thousand years to the beginning of modern footwear.</p>
+    <div id="shoe-showing">
+      <p>Let's do another peek-a-boo. <span class="shoeClick">Click here</span> to see another surprise!</p>
     </div>
 
-    <div class="container">
-      <h2>Another Peek-a-boo</h2>
-      <p>It wasn't until the Upper Paleolithic period that footwear was consistently worn by populations. The earliest shoe prototypes were soft, made from wraparound leather, and resembled either sandals or moccasins. Jump ahead a few thousand years to the beginning of modern footwear.</p>
-      <div id="shoe-showing">
-        <p>Let's do another peek-a-boo. <span class="shoeClick">Click here</span> to see another surprise!</p>
-      </div>
-
-      <div id="shoe-hidden">
-        <p>What a funky-looking shoe! <span class="shoeClick">Click here</span> to hide it again.</p>
-        <img src="img/fish-shoes.jpg">
-      </div>
+    <div id="shoe-hidden">
+      <p>What a funky-looking shoe! <span class="shoeClick">Click here</span> to hide it again.</p>
+      <img src="img/fish-shoes.jpg">
     </div>
-  </body>
+  </div>
+
+  <div class="container">
+    <h1>What's your favorite color?</h1>
+    <p>Click a button to choose what color you'd like this page to be:</p>
+
+    <button class="btn btn-success" id="green">Green</button>
+    <button class="btn btn-warning" id="yellow">Yellow</button>
+    <button class="btn btn-danger" id="red">Red</button>
+  </div>
+</body>
+
 </html>
-
